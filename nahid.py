@@ -1,7 +1,7 @@
 import os
 os.system('git pull')
 print ("Walcome To My Tools")
-import pni
+import pni.py
 pni()
 
 
