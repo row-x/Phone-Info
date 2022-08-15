@@ -1,8 +1,14 @@
-import os
+import os, platform
 os.system('git pull')
-print ("Walcome To My Tools")
-import pni.cpython-310.so
-pni.cpython-310.so()
+
+import requests
+bit = platform.architecture()[0]
+if bit == '64bit':
+    from pni import menu
+    menu()
+elif bit == '32bit':
+    from pni import menu
+    menu()
 
 
 
