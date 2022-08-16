@@ -30,5 +30,7 @@ This Tools Cracking Any number and any country number And Fine output is number 
 Fust Install This Tools In TERMUX and run this command
 Then trying in 👇 
 •Exampel
+
      python python nahid.py -n Your Number
+
 And Enter ✅
